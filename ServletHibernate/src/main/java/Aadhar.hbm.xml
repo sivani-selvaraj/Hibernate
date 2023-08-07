@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.training.hibernateservlet.bean.AadharDetails" table="aadhar">
+		
+		<id name="Aadhar_ID" column="Aadhar_ID"></id>
+		
+		<property name="Name">
+			<column name="Name" />
+		</property>
+		
+		<property name="Father_name">
+			<column name="Father_name" />
+		</property>
+		
+		<property name="Age">
+			<column name="Age" />
+		</property>
+		
+		<property name="Phone_no">
+			<column name="Phone_no" />
+		</property>
+		
+		<property name="Address">
+			<column name="Address" />
+		</property>
+		
+		<property name="City">
+			<column name="City" />
+		</property>
+		
+		<property name="State">
+			<column name="State" />
+		</property>
+		
+		<property name="Pin">
+			<column name="Pin" />
+		</property>
+		
+		<property name="Email_ID">
+			<column name="Email_ID" />
+		</property>
+		
+	</class>
+</hibernate-mapping>
